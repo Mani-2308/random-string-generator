@@ -19,21 +19,24 @@ A simple React application that generates random alphanumeric strings. This proj
 
 ## 📂 Project Structure
 
-
+```text
 random-string-generator/
 │
 ├── public/
 │
 ├── src/
-│ ├── components/
-│ │ └── RandomStringGenerator.jsx
-│ │
-│ ├── App.jsx
-│ ├── App.css
-│ ├── index.css
-│ └── main.jsx
+│   ├── components/
+│   │   └── RandomStringGenerator.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
 │
-├── package.json
-├── vite.config.js
+├── .gitignore
+├── eslint.config.js
 ├── index.html
-└── README.md
+├── package.json
+├── package-lock.json
+├── README.md
+└── vite.config.js
